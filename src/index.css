@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .secondary-button{
+        @apply rounded px-3 py-3 bg-[#1b7cfc] text-white
+    }
+    .primary-button{
+        @apply rounded px-4 py-2 bg-[#E51B48] text-white
+    }
+
+    .hover{
+        @apply bg-[#1b7cfc] text-white
+    }
+}
+
